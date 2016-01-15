@@ -31,7 +31,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var sliderValueLabel: UILabel!
     
-    var queue = NSOperationQueue()
+    var queue: NSOperationQueue?
 
     override func viewDidLoad() {
         super.viewDidLoad()
